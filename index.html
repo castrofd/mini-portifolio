@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./src/CSS/rolagem.css">
+
+    <title>Mini Portifólio - Felipe</title>
+    
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <!--Área com Nome e Função-->
+            <img src="./src/imagens/foto-perfil.png" alt="Imagem perfil do Felipe">
+            <h1 class="nome">Felipe Duarte de Castro</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Jr. </h2>            
+        </div>
+        <div class="conteudo">
+            <!--Abas-->
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="Icone sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="Icone minhas redes sociais">
+                </li>
+            </ul>
+            <div class="informacoes-abas">
+                <!--Descrição das Abas-->
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Oi! Meu nome é Felipe Duarte de Castro, seja bem-vinda(o)!</p>
+                        <p>Sou apaixonado por programação desde meus 10 anos por conta disso, me formei em Técnico em Informática. Sempre tive o sonho de trabalhar com programação e atualmente comecei a colocar este sonho em prática estudando<span> HTML, CSS, JavaScript, Python e C#</span>. Gosto muito de café e ver filmes e séries</p>
+                    </div>
+                </div>
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+                    
+                    <ul class="redes-sociais">
+
+                        <li>
+                            <a href="./src/documentos/curriculo.pdf" target="_blank" class="curriculo">Cúrriculo</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/felipe-castro-fdc/" target="_blank" class="linkedin">Linkedin</a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/castrofd" target="_blank" class="github">GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
